@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: #ffcc00;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #fff;
+}
+
+section.about {
+    text-align: end;
+    padding: 44px 42px;
+    background-color: #000;
+}
+
+.about p {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 20px auto;
+    color: #fff;
+}
+
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.emcapsula
+{
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex
+}
+
+.sobre
+{
+    padding: 0% 11%;
+}
+
+#projeto
+{
+    text-align: center;
+    background: #060606;
+}
+
+.button {
+    background-color: hsl(0, 0%, 100%);
+    color: #000;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #ffcc00;
+}
